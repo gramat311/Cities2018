@@ -3,6 +3,7 @@ package cities2018;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
 
@@ -45,11 +46,12 @@ import java.util.TreeSet;
        }
        public Map<String,String> sortedByCountries()
        {
-           
+           TreeMap map = new TreeMap(countries);
+           return map;
        }
         public Map<String,String> sortedByCapitals()
        {
-           
+           return null;
        }
         
         
